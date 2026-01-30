@@ -7,10 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# LaundryKu - Digital Laundry Management System
+# Laundry Ukhuwah - Digital Laundry Management System
 
 ## Short Description
-LaundryKu is a web-based laundry management system built with Laravel that streamlines order tracking, automated invoicing, digital wallet transactions, and real-time WhatsApp notifications for laundry businesses.
+Laundry Ukhuwah is a web-based laundry management system built with Laravel that streamlines order tracking, automated invoicing, digital wallet transactions, and real-time WhatsApp notifications for laundry businesses.
 
 ## Overview
 
@@ -36,7 +36,7 @@ The development followed an iterative approach based on customer feedback cycles
 
 ## Solution
 
-LaundryKu provides a full-stack solution with distinct interfaces for administrators and customers. The admin panel enables comprehensive order management with real-time status tracking through five processing stages (reception, washing, drying, ironing, completion). The system automates invoice generation with customizable discounts and tax calculations, sends professional WhatsApp notifications to customers, and manages financial transactions through an integrated digital wallet supporting top-ups, payments, and peer-to-peer transfers. Customers access their order history, track laundry progress visually, manage wallet balances, and receive automated notifications when orders are ready for pickup. The backend implements robust validation, database transactions for financial operations, and automated daily backups. Authentication is streamlined through Google OAuth alongside traditional email/password login.
+Laundry Ukhuwah provides a full-stack solution with distinct interfaces for administrators and customers. The admin panel enables comprehensive order management with real-time status tracking through five processing stages (reception, washing, drying, ironing, completion). The system automates invoice generation with customizable discounts and tax calculations, sends professional WhatsApp notifications to customers, and manages financial transactions through an integrated digital wallet supporting top-ups, payments, and peer-to-peer transfers. Customers access their order history, track laundry progress visually, manage wallet balances, and receive automated notifications when orders are ready for pickup. The backend implements robust validation, database transactions for financial operations, and automated daily backups. Authentication is streamlined through Google OAuth alongside traditional email/password login.
 
 ## Impact & Results
 
@@ -85,7 +85,7 @@ The implementation significantly reduced administrative overhead by automating 8
 ## Installation Guide
 
 ### Prerequisites
-Before installing LaundryKu, make sure you have the following installed on your system:
+Before installing Laundry Ukhuwah, make sure you have the following installed on your system:
 - **PHP 8.1 or higher** (with required extensions: OpenSSL, PDO, Mbstring, Tokenizer, XML, Ctype, JSON, BCMath, Fileinfo)
 - **Composer** (PHP dependency manager)
 - **Node.js & NPM** (v16 or higher recommended)
@@ -130,7 +130,7 @@ DB_PASSWORD=your_database_password
 
 **Application Settings:**
 ```env
-APP_NAME="LaundryKu"
+APP_NAME="Laundry Ukhuwah"
 APP_ENV=local
 APP_DEBUG=true
 APP_URL=http://localhost:8000
@@ -177,8 +177,8 @@ This command populates the database with comprehensive sample data for testing a
 **What will be seeded:**
 
 **Users & Wallets (11 total):**
-- 1 Admin account: `admin@laundryku.com`
-- 2 Staff accounts: `staff1@laundryku.com`, `staff2@laundryku.com`
+- 1 Admin account: `admin@Laundry Ukhuwah.com`
+- 2 Staff accounts: `staff1@Laundry Ukhuwah.com`, `staff2@Laundry Ukhuwah.com`
 - 8 Customer accounts with various wallet balances
 
 **Orders (10 samples):**
@@ -202,9 +202,9 @@ This command populates the database with comprehensive sample data for testing a
 **Default Login Credentials:**
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@laundryku.com | password |
-| Staff | staff1@laundryku.com | password |
-| Staff | staff2@laundryku.com | password |
+| Admin | admin@Laundry Ukhuwah.com | password |
+| Staff | staff1@Laundry Ukhuwah.com | password |
+| Staff | staff2@Laundry Ukhuwah.com | password |
 | Customer | ahmad.rizki@gmail.com | password |
 | Customer | dewi.lestari@gmail.com | password |
 
